@@ -1,0 +1,94 @@
+.body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	font-family: sans-serif;
+}
+section{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+/*---navbar----*/
+#navbar{
+	position: sticky;
+	top: 0;
+	background: #fff;
+}
+.bold{
+	font-size: 25px;
+}
+li{
+	padding: 5px;
+}
+.nav-link{
+	font-size: 15px;
+	font-weight: bold !important;
+	border: 2px solid transparent;
+}
+.nav-link:hover{
+	color: blue !important;
+	border-bottom: 2px solid gray;
+}
+
+/*-----home---*/
+
+span{
+	color: blue;
+	font-weight: bold;
+	
+}
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+
+}
+/*----about----*/
+h6{
+	font-size: 45px;
+}
+
+#about img{
+	width: 25rem;
+	height: 25rem;
+	border-radius: 50px;
+}
+/*----serves----*/
+.card img{
+	height: 400px;
+	transition: 1s;
+}
+h3{
+	text-align: center;
+
+
+}
+h4{
+	text-align: center;
+
+}
+
+.inner{
+	overflow: hidden;
+}
+.card img:hover{
+	transform:scale(1.5);
+	transition: 1s;
+}
+
+.mb-2 a{
+	color: black;
+	border-bottom: none;
+
+}
+/*----contact---*/
+
+
+form{
+	padding: 40px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 1.0);
+	border-radius: 30px;
+}
